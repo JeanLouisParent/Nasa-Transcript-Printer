@@ -24,6 +24,12 @@ In short:
 - `Nasa-Transcript-Processor` builds and normalizes the transcript data.
 - `nasa_transcript_printer` rebuilds print-ready PDFs from that data.
 
+## Visual Comparison
+
+Example on a noisy/rough source page (Apollo 11, original page 56):
+
+![Original vs Reprint Comparison](docs/images/compare_page56.png)
+
 ## Goals
 
 - Reproduce the historical transcript layout (columns, headers, annotations, metadata).
