@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nasa-transcript-printer"
+version = "0.1.0"
+description = "High-fidelity PDF reconstruction for Apollo transcript JSON data."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  { name = "Jean-Louis" }
+]
+keywords = ["nasa", "apollo", "transcript", "pdf", "reportlab"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+dependencies = [
+  "reportlab>=4.2.0"
+]
+
+[project.optional-dependencies]
+dev = [
+  "ruff>=0.9.0",
+  "mypy>=1.14.0"
+]
+
+[project.scripts]
+nasa-transcript-printer = "nasa_transcript_printer.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.mypy]
+python_version = "3.11"
+warn_unused_configs = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_return_any = true
+strict_optional = true
+disallow_untyped_defs = true
+ignore_missing_imports = true
