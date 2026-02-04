@@ -1,0 +1,27 @@
+[paths]
+json = "input/<MISSION_JSON>.json"
+out = "output/<MISSION_OUTPUT>.pdf"
+
+[pagination]
+start_page = 1
+pdf_offset = 2
+
+[mission]
+title_line = "<MISSION TITLE> AIR-TO-GROUND VOICE TRANSCRIPTION"
+goss_line = "(GOSS NET 1)"
+annotation_top_blank_lines = 1
+end_of_tape_indent_col = 0
+center_rest_period_text = true
+rest_period_keep_header = true
+rest_period_only_when_no_comm = true
+
+[special_pages]
+# Example: note_pages = [8]
+note_pages = []
+note_heading = "NOTE"
+note_top_blank_lines = 2
+note_center_vertical = false
+note_block_columns = 58
+rest_period_isolated_pages = []
+rest_period_mixed_pages = []
+footer_pages = []

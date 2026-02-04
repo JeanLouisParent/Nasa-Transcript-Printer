@@ -51,11 +51,12 @@ def locate_font(path_hint: str) -> str:
         return str(hint_path)
 
     candidates = [
+        Path("~/Library/Fonts/prestige.ttf").expanduser(),
+        Path("~/Library/Fonts/Prestige.ttf").expanduser(),
         Path("~/Library/Fonts/CourierPrime-Regular.ttf").expanduser(),
         Path("~/Library/Fonts/Courier Prime.ttf").expanduser(),
         Path("/Library/Fonts/CourierPrime-Regular.ttf"),
         Path("/Library/Fonts/Courier Prime.ttf"),
-        Path("~/Library/Fonts/prestige.ttf").expanduser(),
     ]
     for candidate in candidates:
         if os.path.isfile(candidate):

@@ -1,21 +1,14 @@
-[paths]
-json = "input/AS11_TEC_merged.json"
-out = "output/recreated.pdf"
-
-[pagination]
-start_page = 3
-pdf_offset = 2
-
 [font]
-path = "~/Library/Fonts/CourierPrime-Regular.ttf"
+path = "~/Library/Fonts/prestige.ttf"
 size = 10.0
 
 [layout]
 columns = 80
 space_len = 1
 line_height_multiplier = 1.2
-# left_margin_pt = 40.0
+faux_bold_pt = 0.08
 fit_to_page = true
+# left_margin_pt = 40.0
 
 [page]
 # DPI is informational for this vector PDF renderer and can guide future raster exports.

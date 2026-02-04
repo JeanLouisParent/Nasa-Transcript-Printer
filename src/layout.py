@@ -4,14 +4,12 @@ from __future__ import annotations
 
 from typing import Any
 
-from .constants import (
+from constants import (
     CONTINUATION_COL,
-    GOSS_LINE,
     META_COL,
     SPEAKER_COL,
     TEXT_COL,
     TIMESTAMP_COL,
-    TITLE_LINE,
 )
 
 
@@ -120,22 +118,35 @@ def format_footer(text: str, columns: int, wrap_space_len: int = 1) -> list[str]
     return [prefix + line for line in wrapped]
 
 
-def build_page_lines(page: dict[str, Any], columns: int, space_len: int) -> list[str]:
+def build_page_lines(
+    page: dict[str, Any],
+    columns: int,
+    space_len: int,
+    mission_style: dict[str, Any],
+) -> list[str]:
     lines: list[str] = []
     header = page.get("header", {})
     tape = header.get("tape")
     page_num = header.get("page")
     is_title = header.get("is_apollo_title")
+    title_line = str(mission_style.get("title_line", "AIR-TO-GROUND VOICE TRANSCRIPTION"))
+    goss_line_text = str(mission_style.get("goss_line", "(GOSS NET 1)"))
+    annotation_top_blank_lines = int(mission_style.get("annotation_top_blank_lines", 1))
+    end_of_tape_indent_col = int(mission_style.get("end_of_tape_indent_col", TIMESTAMP_COL))
 
     if tape or is_title:
         if is_title:
-            lines.extend([align_center(TITLE_LINE, columns), "", ""])
+            lines.extend([align_center(title_line, columns), "", ""])
         if tape:
             tape_str = f"Tape {tape}"
-            if len(GOSS_LINE) + len(tape_str) + 1 <= columns:
-                goss_line = GOSS_LINE + " " * (columns - len(GOSS_LINE) - len(tape_str)) + tape_str
+            if len(goss_line_text) + len(tape_str) + 1 <= columns:
+                goss_line = (
+                    goss_line_text
+                    + " " * (columns - len(goss_line_text) - len(tape_str))
+                    + tape_str
+                )
             else:
-                goss_line = GOSS_LINE
+                goss_line = goss_line_text
             lines.append(goss_line)
             lines.append(f"Page {page_num}".rjust(columns))
             lines.extend(["", ""])
@@ -152,7 +163,7 @@ def build_page_lines(page: dict[str, Any], columns: int, space_len: int) -> list
         if block_type == "annotation":
             if lines and lines[-1] != "":
                 lines.append("")
-            lines.append("")
+            lines.extend([""] * annotation_top_blank_lines)
             lines.extend(format_annotation(text, columns, wrap_space_len=space_len))
             lines.extend(["", ""])
             continue
@@ -163,7 +174,7 @@ def build_page_lines(page: dict[str, Any], columns: int, space_len: int) -> list
                 lines.extend(
                     format_indented(
                         text,
-                        TIMESTAMP_COL,
+                        end_of_tape_indent_col,
                         columns,
                         wrap_space_len=space_len,
                     )

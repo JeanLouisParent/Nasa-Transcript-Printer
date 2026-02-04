@@ -937,11 +937,7 @@
           "type": "comm",
           "timestamp": "00 01 32 42",
           "speaker": "CC",
-          "text": "Stand by."
-        },
-        {
-          "type": "annotation",
-          "text": "TEXAS (REV 1)"
+          "text": "Stand by. TEXAS (REV 1)"
         },
         {
           "type": "comm",
@@ -1521,11 +1517,7 @@
           "type": "comm",
           "timestamp": "00 02 30 42",
           "speaker": "CDR",
-          "text": "Very good."
-        },
-        {
-          "type": "annotation",
-          "text": "ARIA (REV 2)"
+          "text": "Very good. ARIA (REV 2)"
         },
         {
           "type": "comm",
@@ -5990,11 +5982,6 @@
       "blocks": [
         {
           "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
-        {
-          "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
           "meta_type": "rest_period"
         }
@@ -6008,11 +5995,6 @@
         "page_type": "rest_period"
       },
       "blocks": [
-        {
-          "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
         {
           "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
@@ -6030,11 +6012,6 @@
       "blocks": [
         {
           "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
-        {
-          "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
           "meta_type": "rest_period"
         }
@@ -6050,11 +6027,6 @@
       "blocks": [
         {
           "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
-        {
-          "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
           "meta_type": "rest_period"
         }
@@ -6068,11 +6040,6 @@
         "page_type": "rest_period"
       },
       "blocks": [
-        {
-          "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
         {
           "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
@@ -7661,7 +7628,8 @@
       "header": {
         "page": 81,
         "tape": "13/2",
-        "is_apollo_title": false
+        "is_apollo_title": false,
+        "page_type": "rest_period"
       },
       "blocks": [
         {
@@ -7701,10 +7669,11 @@
           "text": "Roger. Apollo 11."
         },
         {
-          "type": "comm",
+          "type": "meta",
           "timestamp": "01 02 54 47",
           "speaker": "CC",
-          "text": "Roger. I just wanted to remind you that we haven't noticed on the TM the VERB 66 after the burn. And for your information, we played the recorded TV back last night, I believe, after you all turned in for your rest period, and the pictures care out quite well. Over."
+          "text": "REST PERIOD - NO COMMUNICATIONS",
+          "meta_type": "rest_period"
         },
         {
           "type": "comm",
@@ -12375,11 +12344,6 @@
       },
       "blocks": [
         {
-          "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
-        {
           "type": "footer",
           "text": "'Tape 25/1"
         },
@@ -12400,11 +12364,6 @@
       "blocks": [
         {
           "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
-        {
-          "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
           "meta_type": "rest_period"
         }
@@ -12418,11 +12377,6 @@
         "page_type": "rest_period"
       },
       "blocks": [
-        {
-          "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
         {
           "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
@@ -12440,11 +12394,6 @@
       "blocks": [
         {
           "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
-        {
-          "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
           "meta_type": "rest_period"
         }
@@ -12460,11 +12409,6 @@
       "blocks": [
         {
           "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
-        {
-          "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
           "meta_type": "rest_period"
         }
@@ -12478,11 +12422,6 @@
         "page_type": "rest_period"
       },
       "blocks": [
-        {
-          "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
         {
           "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
@@ -17894,11 +17833,6 @@
       "blocks": [
         {
           "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
-        {
-          "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
           "meta_type": "rest_period"
         }
@@ -17912,11 +17846,6 @@
         "page_type": "rest_period"
       },
       "blocks": [
-        {
-          "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
         {
           "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
@@ -17934,11 +17863,6 @@
       "blocks": [
         {
           "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
-        {
-          "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
           "meta_type": "rest_period"
         }
@@ -17954,11 +17878,6 @@
       "blocks": [
         {
           "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
-        {
-          "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
           "meta_type": "rest_period"
         }
@@ -17972,11 +17891,6 @@
         "page_type": "rest_period"
       },
       "blocks": [
-        {
-          "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
         {
           "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
@@ -32362,7 +32276,8 @@
       "header": {
         "page": 337,
         "tape": "46/11",
-        "is_apollo_title": false
+        "is_apollo_title": false,
+        "page_type": "rest_period"
       },
       "blocks": [
         {
@@ -32443,10 +32358,11 @@
           "speaker": "CMP"
         },
         {
-          "type": "comm",
+          "type": "meta",
           "timestamp": "04 09 01 30",
           "speaker": "CC",
-          "text": "Columbia, Houston. First of all, we'd like waste-water dump to 10 percent on the backside. Secondly, it does not look like we are going to need any plane change at this time, so we will not be uplinking a new REFSMMAT. Third item, I would like all of your CRYO heaters to AUTO, and we are ready for a battery charge, battery BRAVO; it will last about 7 hours. If you should go to sleep, we will be terminating that BATT charge, but at the moment, we can go ahead and start the BATT charge on BATT Bravo. And a final item, for your SM RCS configuration for your rest period, register 1 for the DAP is 11111; DAP register 2, 01100. And your AUTO RCS select"
+          "text": "REST PERIOD - NO COMMUNICATIONS",
+          "meta_type": "rest_period"
         }
       ]
     },
@@ -32459,8 +32375,7 @@
       "blocks": [
         {
           "type": "continuation",
-          "text": "switches, quad Alfa, pitch jets on only, quad Bravo all on, quad Charlie and quad Delta all off. Over.",
-          "continuation_from_prev": true
+          "text": "switches, quad Alfa, pitch jets on only, quad Bravo all on, quad Charlie and quad Delta all off. Over."
         },
         {
           "type": "comm",
@@ -41821,7 +41736,8 @@
       "header": {
         "page": 423,
         "tape": "53/1",
-        "is_apollo_title": true
+        "is_apollo_title": true,
+        "page_type": "rest_period"
       },
       "blocks": [
         {
@@ -41838,10 +41754,11 @@
           "text": "Go ahead, Houston."
         },
         {
-          "type": "comm",
+          "type": "meta",
           "timestamp": "04 18 21 36",
           "speaker": "CC",
-          "text": "Roger. When you get back into your surface checklist and come over to the COMM reconfiguration on page Surface-45, we'd like you to enable the ranging feature on your Is-band. That is, when you come down to Is-band configuration, instead of CAUTION and WARNING ELECTRONICS, ENABLE TV, we'd like you to go into the RANGE position and leave it there for as long as you conveniently can until you get ready to commence your rest period, and we'll try to get a little more ranging data on you. Over."
+          "text": "REST PERIOD - NO COMMUNICATIONS",
+          "meta_type": "rest_period"
         },
         {
           "type": "comm",
@@ -51003,11 +50920,6 @@
       "blocks": [
         {
           "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
-        {
-          "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
           "meta_type": "rest_period"
         }
@@ -51021,11 +50933,6 @@
         "page_type": "rest_period"
       },
       "blocks": [
-        {
-          "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
         {
           "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
@@ -51043,11 +50950,6 @@
       "blocks": [
         {
           "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
-        {
-          "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
           "meta_type": "rest_period"
         }
@@ -51063,11 +50965,6 @@
       "blocks": [
         {
           "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
-        {
-          "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
           "meta_type": "rest_period"
         }
@@ -51081,11 +50978,6 @@
         "page_type": "rest_period"
       },
       "blocks": [
-        {
-          "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
         {
           "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
@@ -54689,11 +54581,6 @@
       "blocks": [
         {
           "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
-        {
-          "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
           "meta_type": "rest_period"
         }
@@ -54707,11 +54594,6 @@
         "page_type": "rest_period"
       },
       "blocks": [
-        {
-          "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
         {
           "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
@@ -54729,11 +54611,6 @@
       "blocks": [
         {
           "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
-        {
-          "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
           "meta_type": "rest_period"
         }
@@ -54747,11 +54624,6 @@
         "page_type": "rest_period"
       },
       "blocks": [
-        {
-          "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
         {
           "type": "footer",
           "text": "Page 56/"
@@ -54773,11 +54645,6 @@
       "blocks": [
         {
           "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
-        {
-          "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
           "meta_type": "rest_period"
         }
@@ -54791,11 +54658,6 @@
         "page_type": "rest_period"
       },
       "blocks": [
-        {
-          "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
         {
           "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
@@ -56875,7 +56737,8 @@
       "header": {
         "page": 596,
         "tape": "81/1",
-        "is_apollo_title": true
+        "is_apollo_title": true,
+        "page_type": "rest_period"
       },
       "blocks": [
         {
@@ -56981,10 +56844,11 @@
           "text": "Go ahead, Houston."
         },
         {
-          "type": "comm",
+          "type": "meta",
           "timestamp": "07 12 21 30",
           "speaker": "CC",
-          "text": "We'd like to know what your plans are as far as turning in this evening. Our - in the flight plan we show you commencing a rest period at about 182 hours, and what are you planning to do on that? We're going to be watching the weather here, and we expect to have an update on the weather, I guess, in about half hour or 45 minutes to pass to you. Over."
+          "text": "REST PERIOD - NO COMMUNICATIONS",
+          "meta_type": "rest_period"
         },
         {
           "type": "comm",
@@ -57556,11 +57420,6 @@
       "blocks": [
         {
           "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
-        {
-          "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
           "meta_type": "rest_period"
         }
@@ -57574,11 +57433,6 @@
         "page_type": "rest_period"
       },
       "blocks": [
-        {
-          "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
         {
           "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
@@ -57596,11 +57450,6 @@
       "blocks": [
         {
           "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
-        {
-          "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
           "meta_type": "rest_period"
         }
@@ -57614,11 +57463,6 @@
         "page_type": "rest_period"
       },
       "blocks": [
-        {
-          "type": "meta",
-          "text": "AIR-TO-GROUND VOICE TRANSCRIPTION",
-          "meta_type": "transcript_header"
-        },
         {
           "type": "meta",
           "text": "REST PERIOD - NO COMMUNICATIONS",
@@ -59323,7 +59167,7 @@
           "type": "comm",
           "timestamp": "08 03 17 00",
           "speaker": "SWIM 1",
-          "text": "1 SWIM 1 has ... contact 150, holding ... 190."
+          "text": "SWIM 1 has ... contact 150, holding ... 190."
         },
         {
           "type": "comm",
@@ -59353,7 +59197,7 @@
           "type": "comm",
           "timestamp": "08 03 17 32",
           "speaker": "SWIM 1",
-          "text": "1 Swim 1. Have a visual dead ahead about a mile?"
+          "text": "Swim 1. Have a visual dead ahead about a mile?"
         },
         {
           "type": "comm",
@@ -59365,7 +59209,7 @@
           "type": "comm",
           "timestamp": "08 03 17 48",
           "speaker": "SWIM 1",
-          "text": "1 Roger. This is SWIM 1, Apollo 11."
+          "text": "Roger. This is SWIM 1, Apollo 11."
         },
         {
           "type": "comm",
@@ -59377,13 +59221,13 @@
           "type": "comm",
           "timestamp": "08 03 17 56",
           "speaker": "SWIM 1",
-          "text": "1 Roger. You're looking real good."
+          "text": "Roger. You're looking real good."
         },
         {
           "type": "comm",
           "timestamp": "08 03 18 18",
           "speaker": "SWIM 1",
-          "text": "1 SPLASHDOWN!"
+          "text": "SPLASHDOWN!"
         },
         {
           "type": "footer",

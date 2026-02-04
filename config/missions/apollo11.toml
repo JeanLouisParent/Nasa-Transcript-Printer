@@ -1,0 +1,38 @@
+[paths]
+json = "input/AS11_TEC_merged.json"
+out = "output/AS11_TEC_full.pdf"
+
+[pagination]
+start_page = 3
+pdf_offset = 2
+
+[mission]
+title_line = "APOLLO 11 AIR-TO-GROUND VOICE TRANSCRIPTION"
+goss_line = "(GOSS NET 1)"
+annotation_top_blank_lines = 1
+end_of_tape_indent_col = 0
+center_rest_period_text = true
+rest_period_keep_header = true
+rest_period_only_when_no_comm = true
+
+[special_pages]
+# Page 8 in the original PDF is a dedicated NOTE page ("Subsequent to TLI...").
+note_pages = [8]
+note_heading = "NOTE"
+note_top_blank_lines = 0
+note_center_vertical = true
+note_block_columns = 58
+
+# Audit lists from Apollo 11 source extraction (useful as mission-specific references).
+rest_period_isolated_pages = [
+  58, 59, 60, 61, 62, 129, 130, 131, 132, 133, 134, 190, 191, 192, 193, 194,
+  265, 266, 431, 432, 433, 516, 517, 518, 519, 520, 564, 565, 566, 567, 568,
+  569, 604, 605, 606, 607
+]
+rest_period_mixed_pages = [81, 337, 423, 596]
+footer_pages = [
+  129, 202, 352, 357, 358, 359, 360, 361, 362, 365, 366, 367, 369, 370, 373,
+  375, 378, 379, 381, 382, 383, 384, 385, 386, 387, 390, 391, 392, 393, 394,
+  395, 397, 398, 400, 401, 402, 409, 410, 466, 473, 474, 477, 502, 521, 545,
+  546, 567, 570, 623, 624
+]

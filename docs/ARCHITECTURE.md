@@ -4,7 +4,7 @@
 
 The system is split into 5 layers:
 
-1. `config.py`: loads and normalizes TOML configuration.
+1. `config.py`: loads and merges `common` + `mission` TOML configurations.
 2. `cli.py`: parses arguments and orchestrates the workflow.
 3. `io_utils.py`: loads JSON pages and resolves font paths.
 4. `layout.py`: converts semantic blocks into monospaced lines.
@@ -13,15 +13,17 @@ The system is split into 5 layers:
 ## Flow
 
 ```text
-JSON pages -> page selection -> line generation -> PDF rendering
+Common config + mission config -> page selection -> line generation -> PDF rendering
 ```
 
 ## Technical Decisions
 
-- `src/` package layout to avoid ambiguous imports.
+- Flat `src/` module layout for straightforward local edits.
+- Split configuration model:
+  - `config/common.toml` for shared defaults (font, DPI, page geometry).
+  - `config/missions/*.toml` for mission-specific behavior (headers, rest-period rules, source paths).
 - Deterministic text wrapping based on fixed column width.
 - Page-by-page rendering with optional line-height fitting.
-- `recreate_pdf.py` wrapper retained for backward compatibility.
 
 ## Future Extensions
 
